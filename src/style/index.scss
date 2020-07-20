@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;600;700&display=swap');
+html {
+  overflow: hidden;
+  height: 100vh;
+}
+
+body,
+* {
+  font-family: 'Lato', 'Open Sans', sans-serif;
+}
+
+body {
+  overflow: hidden;
+  height: 100%;
+}
+
+.root {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  overflow-x: auto;
+}
